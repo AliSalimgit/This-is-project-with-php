@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.test{
+    min-width: 100vh;
+min-height: 100px;
+border: 1px solid red;
+
+
+
+}
+.table-striped .tbody tr:nth-child(2n){
+background-color: powderblue;
+
+}
+.table-striped .tbody tr:nth-child(2n+1){
+background-color: blueviolet;
+
+
+}
+.table-striped .tbody tr td{
+padding-top: 2rem;
+padding-bottom: 2rem;
+
+}
+.had{
+display: flex;
+    justify-content: center;
+    align-items: center;
+font-size: 2rem;
+}
+.myinput{
+    display: flex;
+    flex-direction: column;
+    padding:5em ;
+    margin:5em ;
+}
